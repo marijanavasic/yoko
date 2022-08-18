@@ -1,0 +1,744 @@
+@import url("general-sans.css");
+@import url("Optiker-K.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #171f4a;
+}
+.container {
+  max-width: 1313px;
+}
+
+/* Styling navbar  */
+.navbar {
+  background: #171f4a;
+  margin-top: 35px;
+  padding: 0;
+}
+
+.navbar-nav {
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  margin-right: 60px;
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #dfe8f8;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #dfe8f8;
+}
+
+.navbar-nav .btn-explore {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding: 8px 60px;
+  text-decoration: none;
+  color: #dfe8f8;
+  pointer-events: none;
+}
+
+/* Styling heading  */
+.home-heading {
+  /* margin-top: 83px; */
+  padding: 70px 0px;
+  justify-content: center;
+}
+.home-heading-title {
+  padding: 10px;
+}
+.home-heading h1 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 91px;
+  line-height: 84px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.home-heading h1::before {
+  content: "";
+  background: rgba(52, 132, 204, 0.8);
+  height: 19px;
+  width: 275px;
+  margin-left: auto;
+  margin-right: 87px;
+  margin-bottom: -46px;
+  display: block;
+  transform: translateY(125px);
+}
+.home-heading p {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  margin-bottom: 40px;
+}
+
+.home-heading .btn-explore {
+  background: #3484cc;
+  border-radius: 100px;
+  pointer-events: none;
+  padding: 10px 70px;
+  border: none;
+  color: #fff;
+  margin-bottom: 192px;
+}
+
+.home-heading .home-heading-image {
+  width: 100%;
+}
+
+/* Styling home services  */
+.home-services {
+  background: #202957;
+  /* padding-top: 75px;
+  padding-bottom: 75px; */
+  padding: 70px 0px;
+  justify-content: center;
+  /* margin-top: 80px; */
+}
+
+.home-services .home-services-text h2 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  padding-top: 20px;
+}
+
+.home-services .home-services-text h2::before {
+  content: "";
+  background: rgba(52, 132, 204, 0.8);
+  height: 15px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: 1006px;
+  margin-bottom: -42px;
+  display: block;
+  transform: translateY(10px);
+}
+
+.home-services .home-services-text p {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.home-services .card {
+  background: transparent;
+  border: none;
+  width: 296px;
+  height: 251px;
+}
+
+.home-services .card-title {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+}
+.home-services .card-body .card-link {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: rgba(223, 232, 248, 0.8);
+  margin-bottom: 53px 0px;
+}
+
+.home-services .card-body .card-btn {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #dfe8f8;
+  padding-top: 50px;
+  width: 33%;
+}
+.home-services .card-body img {
+  background: #4e8cc4;
+  border-radius: 4px;
+  width: 56px;
+  height: 56px;
+  padding: 13px;
+  margin-right: 25px;
+}
+
+/* Styling section latest projects  */
+.home-projects {
+  padding: 60px 0px;
+}
+.home-projects-text h2 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  padding-bottom: 10px;
+}
+
+.home-projects-text h2::before {
+  content: "";
+  background: rgba(52, 132, 204, 0.8);
+  height: 15px;
+  width: 190px;
+  margin-left: auto;
+  margin-right: 952px;
+  margin-bottom: -36px;
+  display: block;
+  transform: translateY(17px);
+}
+
+.home-projects-text p {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: rgba(223, 232, 248, 0.8);
+  text-align: left;
+}
+.project-images {
+  position: relative;
+  padding-top: 50px;
+}
+
+.home-projects .project-images img {
+  max-width: 100%;
+  border-radius: 16px;
+}
+.project-images .content {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  top: 287px;
+  left: 15px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.592) 45.2%,
+    rgba(0, 0, 0, 0) 91.35%
+  );
+  border-radius: 0px 0px 16px 16px;
+  color: white;
+  padding-left: 57px;
+  padding-right: 93px;
+}
+.project-images .content img {
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  top: -73px;
+  right: 107px;
+}
+
+/* Styling testimonials  */
+.home-testimonials {
+  background: #202957;
+  border-radius: 16px;
+  padding: 60px;
+  width: 1280px;
+}
+
+.home-testimonials h2 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  margin-bottom: 50px;
+}
+
+.home-testimonials h2::before {
+  content: "";
+  background: rgba(52, 132, 204, 0.8);
+  height: 15px;
+  width: 226px;
+  margin-left: auto;
+  margin-right: 803px;
+  margin-bottom: -36px;
+  display: block;
+  transform: translateY(15px);
+}
+
+.home-testimonials p {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #dfe8f8;
+  /* padding: 10px 15px; */
+}
+
+.home-testimonials img {
+  border-radius: 1000px;
+  margin-top: 45px;
+}
+
+.home-testimonials h4 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin-top: 17px;
+}
+
+.home-testimonials h6 {
+  font-family: "Optician Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 17px;
+}
+
+/* Styling home teamwork  */
+.home-teamwork {
+  padding: 70px 0px;
+}
+.home-teamwork img {
+  width: 100%;
+}
+
+.home-teamwork h2 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  padding-top: 30px;
+}
+
+.home-teamwork h2::before {
+  content: "";
+  background: rgba(52, 132, 204, 0.8);
+  height: 14px;
+  width: 190px;
+  margin-left: auto;
+  margin-right: 225px;
+  margin-bottom: -40px;
+  display: block;
+  transform: translateY(12px);
+}
+
+.home-teamwork p {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #dfe8f8;
+  margin-top: 20px;
+  padding-right: 100px;
+}
+.home-teamwork .box .list-group {
+  width: 539px;
+  height: 368px;
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+.home-teamwork .dropdown .btn-lg {
+  /* padding: 0.5rem 12rem; */
+  background: #171f4a;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #dfe8f8;
+  outline: none;
+}
+.home-teamwork .dropdown .btn-lg:focus {
+  outline: none;
+}
+.home-teamwork .dropdown a span {
+  padding-left: 0px;
+  padding-right: 180px;
+}
+
+.dropdown a {
+  background: transparent;
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  padding-left: 0;
+}
+.home-teamwork .box .list-group .list-group-item {
+  background: transparent;
+  /* padding-left: 0;
+  padding-right: 30px; */
+  width: 539px;
+  height: 92px;
+}
+.dropdown-menu {
+  padding: 5px 30px;
+  background: #4e8cc4;
+  color: #dfe8f8;
+}
+.dropdown-menu a {
+  font-size: 20px;
+}
+.home-teamwork .btn-explore1 {
+  background: #3484cc;
+  border-radius: 100px;
+  pointer-events: none;
+  padding: 10px 70px;
+  border: none;
+  color: #fff;
+}
+
+/* Styling companies section  */
+.home-companies {
+  padding-top: 118px;
+}
+.home-companies .home-companies-title h2 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+.home-companies .home-companies-title h2::before {
+  content: "";
+  background: rgba(52, 132, 204, 0.8);
+  height: 13px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: 217px;
+  margin-bottom: -36px;
+  display: block;
+  transform: translateY(18px);
+}
+.home-companies .home-companies-box {
+  width: 1280px;
+  height: 161px;
+  background: #202957;
+  border-radius: 16px;
+}
+.home-companies-list {
+  padding: 70px 40px;
+  align-items: center;
+}
+.home-companies-list-item {
+  display: inline-block;
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 90px;
+}
+
+/* Styling  blogs   */
+.home-blog {
+  padding: 75px 0px;
+}
+.home-blog .home-blog-title {
+  display: flex;
+  justify-content: space-between;
+}
+.home-blog .home-blog-title h2 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+}
+
+.home-blog .home-blog-title .btn-explore {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding: 10px 60px;
+  text-decoration: none;
+  color: #dfe8f8;
+  pointer-events: none;
+  justify-content: right;
+}
+
+.home-blog-cards {
+  padding-top: 35px;
+}
+.home-blog-cards .card {
+  width: 296px;
+  height: 406px;
+  background: #202957;
+  border: 0;
+}
+
+.home-blog-cards .card .card-body {
+  padding: 17px 20px;
+}
+.home-blog-cards .card img {
+  border-radius: 8px 8px 0px 0px;
+  width: 296px;
+  height: 201px;
+}
+
+.home-blog-cards .card .card-body .card-title {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 92%;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+}
+
+.home-blog-cards .card .card-body .card-link {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+}
+.home-blog-cards .card .card-body .card-text {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.8);
+}
+.home-blog-cards .card .card-body .btn {
+  background-color: transparent;
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 1px solid #dfe8f8;
+  text-transform: uppercase;
+  font-family: "Optician Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+  color: #dfe8f8;
+}
+
+/* Styling work section  */
+.home-work {
+  padding-top: 75px;
+  padding-bottom: 105px;
+  background-color: #202957;
+}
+.home-work-title h2 {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 91px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+}
+.home-work-btn {
+  text-align: center;
+  padding: 45px;
+}
+.home-work-btn .btn-explore1 {
+  background: #3484cc;
+  border-radius: 100px;
+  pointer-events: none;
+  padding: 20px 60px;
+  border: none;
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  color: #dfe8f8;
+}
+
+/* Styling footer  */
+
+/* Styling footer  */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.footer .subtitle {
+  font-family: "Optician Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 25px 0px;
+}
+/* .footer .subscribe-input input {
+  padding-left: 0;
+} */
+.footer .subscribe-input input#subscribe-email {
+  width: 328px;
+  outline: none;
+  height: 60px;
+  border-radius: 5px;
+  background: transparent;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.footer button#subscribe-btn {
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  right: 0px;
+  z-index: 2;
+  top: 121px;
+  height: 54px;
+  cursor: pointer;
+  color: white;
+  background-color: #3484cc;
+  transform: translateX(-301px);
+}
+
+.footer .socials p {
+  font-family: "Optician Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 60px;
+}
+
+.footer .socials a {
+  padding-top: 10px;
+  padding-right: 25px;
+  margin-top: 10px;
+}
+
+.footer .copyright p {
+  font-family: "Eudoxus Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 140px;
+}
+
+.soc-con {
+  display: flex;
+  align-items: flex-end;
+}
+.footer h5 {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  font-family: "Optician Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 35px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: left;
+  text-decoration: none;
+}
+.poweredBy {
+  padding-top: 40px;
+}
+
+.footer h6 {
+  font-family: "Optician Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.31);
+}
+
+.footer p {
+  /* font-family: "General Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.8);
+}
