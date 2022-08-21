@@ -686,7 +686,7 @@ body {
 }
 
 .footer .copyright p {
-  font-family: "Eudoxus Sans";
+  /* font-family: "Eudoxus Sans"; */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -701,7 +701,7 @@ body {
   align-items: flex-end;
 }
 .footer h5 {
-  font-family: "General Sans";
+  /* font-family: "General Sans"; */
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
